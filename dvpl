@@ -8,7 +8,7 @@ xkb_symbols "basic" {
     name[Group1]= "Belarusian (Latin Programmer Dvorak)";
     
     //             Unmodified       Shift           AltGr            Shift+AltGr
-    key <AD05> { [ y,               Y,              y,               Y,         ] };
+    key <AD05> { [ y,               Y,              y,               Y          ] };
     key <AD08> { [ c,               C,              ccaron,          Ccaron     ] };
     key <AD09> { [ r,               R,              cacute,          Cacute     ] };
     key <AD10> { [ l,               L,              lstroke,         Lstroke    ] };
