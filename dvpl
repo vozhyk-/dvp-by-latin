@@ -8,17 +8,24 @@ xkb_symbols "basic" {
     name[Group1]= "Belarusian (Latin Programmer Dvorak)";
     
     //             Unmodified       Shift           AltGr            Shift+AltGr
+    key <AD04> { [ p,               P,              p,               P          ] };
     key <AD05> { [ y,               Y,              y,               Y          ] };
     key <AD08> { [ c,               C,              ccaron,          Ccaron     ] };
     key <AD09> { [ r,               R,              cacute,          Cacute     ] };
     key <AD10> { [ l,               L,              lstroke,         Lstroke    ] };
 
     key <AC01> { [ a,               A,              a,               A          ] };
+    key <AC02> { [ o,               O,              o,               O          ] };
+    key <AC03> { [ e,               E,              e,               E          ] };
     key <AC04> { [ u,               U,              ubreve,          Ubreve     ] };
+    key <AC06> { [ d,               D,              d,               D          ] };
+    key <AC07> { [ h,               H,              h,               H          ] };
+    key <AC08> { [ t,               T,              t,               T          ] };
     key <AC09> { [ n,               N,              nacute,          Nacute     ] };
     key <AC10> { [ s,               S,              scaron,          Scaron     ] };
     key <AC11> { [ minus,           underscore,     sacute,          Sacute     ] };
 
+    key <AB07> { [ m,               M,              m,               M          ] };
     key <AB09> { [ v,               V,              zacute,          Zacute     ] };
     key <AB10> { [ z,               Z,              zcaron,          Zcaron     ] };
 };
