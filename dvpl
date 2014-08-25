@@ -1,8 +1,8 @@
 
 // Based on the Belarusian (Latin) layout
 
-partial alphanumeric_keys
-xkb_symbols "latin-dvp" {
+default partial alphanumeric_keys
+xkb_symbols "basic" {
     include "us(dvp)"
     
     name[Group1]= "Belarusian (Latin Programmer Dvorak)";
